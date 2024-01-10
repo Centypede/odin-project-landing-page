@@ -60,9 +60,6 @@ li {
 }
 
 .hero-image {
-    height: 200px;
-    width: 350px;
-    background-color: gray;
     align-self: center;
 }
 
@@ -156,6 +153,15 @@ button {
     padding: 5px 25px;
 }
 
+button:hover {
+    cursor: grab;
+}
+
 .block button {
     border-color: white;
+}
+
+.footer {
+    font-size: x-small;
+    font-style: italic;
 }
